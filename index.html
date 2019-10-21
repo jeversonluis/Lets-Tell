@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Let's Tell</title>
+    <link rel="stylesheet" href="letsTell.css">
+</head>
+<body>
+    <header>
+        <h1>Let's Tell</h1>
+    </header>
+    <section>
+        <div id="dados">
+            <p>Start: 
+                <input type="number" name="dig1" id="dig1" min="0">
+            </p>
+            <p>End:
+                <input type="number" name="dig2" id="dig2">
+            </p>
+            <p>Step:
+                <input type="number" name="dig3" id="dig3" min="0">
+            </p>
+            <p>
+                <input type="button" value="Tell" onclick="contar()">
+            </p>
+        </div>
+        <div id="res">
+            Preparing the count...
+        </div>
+    </section>
+    <footer>
+        <p>&copy;Jeverson Developer</p>
+    </footer>
+    <script src="letsTell.js"></script>
+</body>
+</html>
